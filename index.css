@@ -1,0 +1,204 @@
+/*------HEADER EM GERAL-------*/
+html {
+position: relative;
+right: 9.37rem;
+right: 16.66vh;
+}
+
+.cabecalho { grid-area: header; 
+  display: flex;
+}
+
+#logo {
+  display: flex;
+  position: relative;
+  left: 18.75rem;
+  left: 33.33vh;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.75rem;
+}
+
+#inicio {
+  display: flex;
+  margin-left: 62.5rem;
+  gap: 6.25rem;
+  gap: 11,11rem;
+  position: relative;
+  bottom: 2.5rem;
+  list-style-type: none;
+  font-family: 'DM Sans', sans-serif;
+  font-style:normal;
+  font-size: 1.12rem;
+  line-height: 1.43rem;
+  line-height: 100%;
+  align: Left;
+  Vertical-align: Top;
+}
+
+/*-----BODY EM GERAL------*/
+
+
+.principal { grid-area: main;
+display: flex; }
+
+#texto-centro {
+  font-family: 'DM Sans', sans-serif;
+font-size: 4.12rem;
+font-weight: 700;
+line-height: 4.68rem;
+letter-spacing: 0em;
+text-align: left;
+color: 
+#333333;
+
+}
+
+#texto-secundario {
+font-family: 'DM Sans', sans-serif;
+font-size: 1.25rem;
+font-weight: 400;
+line-height: 2.12rem;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+button {
+  width: 10rem;
+  width: 17.77vh ;
+  height: 3.87rem;
+  height: 6.88vh;
+  background-color: #4856DF;
+  border-radius: 10%;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.12rem;
+  color: white;
+  border: 0;
+  
+
+}
+
+
+.imagem { grid-area: right; 
+   border: 0;
+}
+
+/*-----FOOTER-----*/
+
+
+.rodape { grid-area: footer; 
+  display: flex;
+  flex-direction: row;
+  
+
+}
+
+h3 {
+font-family: 'DM Sans', sans-serif;
+font-style: Medium;
+Font-size: 1.37rem;
+line-height: 2.12rem;
+line-height: 119%;
+
+}
+
+#texto1, #texto2, #texto3 {
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-size: 0.87rem;
+ 
+}
+
+.txt1 {
+  position: relative;
+  left: 31.25rem;
+  top: 10.93rem;
+  border: 1px solid rgba(90, 88, 90, 0.123);
+  padding: 1.25rem;
+}
+
+.txt2 {
+  position: relative;
+  left: 62.5rem;
+  left: 111.11vh;
+  bottom: 10.93rem;
+  
+  border: 1px solid rgba(90, 88, 90, 0.123);
+  padding: 1.25rem;
+}
+
+.txt3 {
+  border: 1px solid rgba(90, 88, 90, 0.123);
+  padding: 1.25rem;
+}
+
+
+iframe{
+  height: 300px;
+  width: 500px;
+  position: relative;
+  top: 500px;
+}
+
+body {
+
+  width: 100%;
+  height: 100vh;
+  transition: background 1s;
+}
+
+
+
+
+.button{
+  position: relative;
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+  box-shadow: 0 0 2.5px 0 #4856DF;
+  cursor: pointer;
+  background-color: aliceblue;
+}
+
+.ball {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 100%;
+  border-radius: 50%;
+  background-color:#4856DF ;
+  transition: left 1s;
+}
+
+.ball.move{
+  left: calc(100% - 40px);
+}
+
+.dark {
+  background-color: rgb(188, 135, 236);
+}
+
+/*----PROPRIEDADES DO CONTAINER------*/
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 0.62rem;
+  
+  padding: 0.62rem;
+  
+}
+
+.grid-container > div {
+  background-color:
+  
+  padding: 1.25rem 0;
+  
+
+}
