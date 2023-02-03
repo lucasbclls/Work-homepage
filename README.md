@@ -1,4 +1,5 @@
-# Trabalho-2-bi-
-## nome: Paulo Lucas Barcellos Lopes SI1N
-### Trabalho feito com estetica minimalista como uma page de home simples e intuitiva para conhecer o trabalho e com o pouco conhecimento de java script onde foi feito um rover de mudança de background de fundo da aplicação
+# Work for UVV college
+## name: Paulo Lucas Barcellos Lopes 
+## class: SI1N
+### Work done with minimalist aesthetics as a simple and intuitive home page to know the work and with little knowledge of java script where a rover was made to change the background of the application
 https://lucasbclls.github.io/Trabalho-2/
